@@ -1,3 +1,5 @@
-TapButton1: {'0':'Disactive', '1':'Rigth click', '2':'Middle click', '3':'Left click'}
-TapButton2: {'0':'Disactive', '1':'Rigth click', '2':'Middle click', '3':'Left click'}
-TapButton3: {'0':'Disactive', '1':'Rigth click', '2':'Middle click', '3':'Left click'}
+TapButton1: {'0':'Disactived', '1':'Rigth click', '2':'Middle click', '3':'Left click'}
+TapButton2: {'0':'Disactived', '1':'Rigth click', '2':'Middle click', '3':'Left click'}
+TapButton3: {'0':'Disactived', '1':'Rigth click', '2':'Middle click', '3':'Left click'}
+HorizTwoFingerScroll: {'0':'Disactived', '1':'Actived'}
+VertTwoFingerScroll: {'0':'Disactived', '1':'Actived'}
