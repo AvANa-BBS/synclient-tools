@@ -9,7 +9,6 @@ import gtk
 import sys
 import gettext
 
-gettext.bindtextdomain('synclient-tools', 'locale')
 gettext.textdomain('synclient-tools')
 _ = gettext.gettext
 
