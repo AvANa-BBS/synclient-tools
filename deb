@@ -14,4 +14,5 @@ Files: synclient-tools /usr/bin/
   default_conf.yaml /usr/share/synclient-tools/
   values.yaml /usr/share/synclient-tools/
   99synclient-tools /etc/X11/Xsession.d/
+  synclient-tools.desktop /usr/share/applications/
 Description: Tools for synclient

@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Configure touchpad
+Name[es]=Configurar touchpad
+Name[it]=Configurare touchpad
+Comment=Configure touchpad
+Comment[es]=Configurar touchpad
+Comment[it]=Configuare touchpad
+Exec=synclient-tools gtk
+Terminal=false
+Type=Application
+Icon=
+StartupNotify=true
+X-Desktop-File-Install-Version=0.20
+Categories=System;HardwareSettings;GTK;
