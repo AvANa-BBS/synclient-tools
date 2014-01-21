@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: synclient-tools 0.2\n"
+"Report-Msgid-Bugs-To: paskao@hacari.org\n"
+"POT-Creation-Date: 2014-01-21 19:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:64
+#: /home/pask/GIT/synclient-tools/synclient-tools:93
+#: /home/pask/GIT/synclient-tools/synclient-tools:91
+msgid "Save"
+msgstr "Guardar"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:110
+#: /home/pask/GIT/synclient-tools/synclient-tools:139
+#: /home/pask/GIT/synclient-tools/synclient-tools:137
+msgid "Two finger scrolling"
+msgstr "Scroll con dos dedos"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:115
+#: /home/pask/GIT/synclient-tools/synclient-tools:144
+#: /home/pask/GIT/synclient-tools/synclient-tools:142
+msgid "Horizontal scroll"
+msgstr "Scroll horizontal"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:120
+#: /home/pask/GIT/synclient-tools/synclient-tools:149
+#: /home/pask/GIT/synclient-tools/synclient-tools:147
+msgid "Vertical scroll"
+msgstr "Scroll vertical"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:138
+#: /home/pask/GIT/synclient-tools/synclient-tools:167
+#: /home/pask/GIT/synclient-tools/synclient-tools:165
+msgid "Touchpad taps"
+msgstr "Click en el touchpad"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:140
+#: /home/pask/GIT/synclient-tools/synclient-tools:169
+#: /home/pask/GIT/synclient-tools/synclient-tools:167
+msgid "<i>Set touchpad taps as mouse clicks.</i>"
+msgstr "<i>Configura los click en el touchpad como clicks del ratón</i>"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:147
+#: /home/pask/GIT/synclient-tools/synclient-tools:176
+#: /home/pask/GIT/synclient-tools/synclient-tools:174
+msgid "One finger tap"
+msgstr "Click con un dedo"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:152
+#: /home/pask/GIT/synclient-tools/synclient-tools:181
+#: /home/pask/GIT/synclient-tools/synclient-tools:179
+msgid "Two fingers tap"
+msgstr "Click con dos dedos"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:157
+#: /home/pask/GIT/synclient-tools/synclient-tools:186
+#: /home/pask/GIT/synclient-tools/synclient-tools:184
+msgid "Three fingers tap"
+msgstr "Click con tres dedos"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:22
+#: /home/pask/GIT/synclient-tools/synclient-tools:28
+#: /home/pask/GIT/synclient-tools/synclient-tools:34
+#: /home/pask/GIT/synclient-tools/synclient-tools:40
+#: /home/pask/GIT/synclient-tools/synclient-tools:44
+msgid "Disactived"
+msgstr "Disactivado"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:23
+#: /home/pask/GIT/synclient-tools/synclient-tools:29
+#: /home/pask/GIT/synclient-tools/synclient-tools:35
+msgid "Rigth click"
+msgstr "Click derecho"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:24
+#: /home/pask/GIT/synclient-tools/synclient-tools:30
+#: /home/pask/GIT/synclient-tools/synclient-tools:36
+msgid "Middle click"
+msgstr "Click central"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:25
+#: /home/pask/GIT/synclient-tools/synclient-tools:31
+#: /home/pask/GIT/synclient-tools/synclient-tools:37
+msgid "Left click"
+msgstr "Click izquierdo"
+
+#: /home/pask/GIT/synclient-tools/synclient-tools:41
+#: /home/pask/GIT/synclient-tools/synclient-tools:45
+msgid "Actived"
+msgstr "Activado"

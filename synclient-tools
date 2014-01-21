@@ -7,16 +7,47 @@ import pygtk
 pygtk.require('2.0')
 import gtk
 import sys
+import gettext
 
+gettext.bindtextdomain('synclient-tools', 'locale')
+gettext.textdomain('synclient-tools')
+_ = gettext.gettext
 
 homepath = os.path.expanduser("~")
 usrpath = '/usr/share/synclient-tools/'
 config_path = os.path.join(homepath, '.config/synclient-tools/conf.yaml')
 
+VALUES = {
+        'TapButton1': {
+            '0': _('Disactived'),
+            '1': _('Rigth click'),
+            '2': _('Middle click'),
+            '3': _('Left click')
+            },
+        'TapButton2': {
+            '0': _('Disactived'),
+            '1': _('Rigth click'),
+            '2': _('Middle click'),
+            '3': _('Left click')
+            },
+        'TapButton3': {
+            '0': _('Disactived'),
+            '1': _('Rigth click'),
+            '2': _('Middle click'),
+            '3': _('Left click')
+            },
+        'HorizTwoFingerScroll': {
+            '0': _('Disactived'),
+            '1': _('Actived')
+            },
+        'VertTwoFingerScroll': {
+            '0': _('Disactived'),
+            '1': _('Actived')
+            }
+        }
+
 def get_values():
-    values_path = os.path.join(usrpath, 'values.yaml')
-    values = file(values_path).read()
-    return yaml.load(values)
+    return VALUES
 
 def get_conf():
     if not os.path.exists(config_path):
@@ -57,7 +88,7 @@ class MainWindow(gtk.Window):
         self.add(box)
         self.connect("destroy", self.quit)
 
-        saveButton = gtk.Button('Save')
+        saveButton = gtk.Button(_('Save'))
         saveButton.connect('clicked', self.save)
         box.add(saveButton)
 
@@ -103,17 +134,17 @@ class TwoFingerScroll(gtk.VBox):
 
     def __init__(self):
         gtk.VBox.__init__(self, False, 0)
-        frame = gtk.Frame(label='Two finger scrolling')
+        frame = gtk.Frame(label=_('Two finger scrolling'))
         table = gtk.Table(2, 2, True)
         self.add(frame)
         frame.add(table)
 
-        self.horizScrollLabel = gtk.Label('Horizontal scroll')
+        self.horizScrollLabel = gtk.Label(_('Horizontal scroll'))
         self.horizScroll = Tools.create_combo('HorizTwoFingerScroll')
         table.attach(self.horizScrollLabel, 0, 1, 0, 1)
         table.attach(self.horizScroll, 1, 2, 0, 1)
 
-        self.vertScrollLabel = gtk.Label('Vertical scroll')
+        self.vertScrollLabel = gtk.Label(_('Vertical scroll'))
         self.vertScroll = Tools.create_combo('VertTwoFingerScroll')
         table.attach(self.vertScrollLabel, 0, 1, 1, 2)
         table.attach(self.vertScroll, 1, 2, 1, 2)
@@ -131,26 +162,26 @@ class TouchpadClicks(gtk.VBox):
         self.conf = get_conf()
       
         box = gtk.VBox(False, 0)
-        frame = gtk.Frame(label='Touchpad taps')
+        frame = gtk.Frame(label=_('Touchpad taps'))
         label = gtk.Label()
-        label.set_markup('<i>Set touchpad taps as mouse clicks.</i>')
+        label.set_markup(_('<i>Set touchpad taps as mouse clicks.</i>'))
         frame.add(box)
         table = gtk.Table(3, 2, True)
         self.add(frame)
         box.add(label)
         box.add(table)
 
-        self.tapButton1Label = gtk.Label('One finger tap')
+        self.tapButton1Label = gtk.Label(_('One finger tap'))
         self.tapButton1 = Tools.create_combo('TapButton1')
         table.attach(self.tapButton1Label, 0, 1, 0, 1)
         table.attach(self.tapButton1, 1, 2, 0, 1)
 
-        self.tapButton2Label = gtk.Label('Two fingers tap')
+        self.tapButton2Label = gtk.Label(_('Two fingers tap'))
         self.tapButton2 = Tools.create_combo('TapButton2')
         table.attach(self.tapButton2Label, 0, 1, 1, 2)
         table.attach(self.tapButton2, 1, 2, 1, 2)
 
-        self.tapButton3Label = gtk.Label('Three fingers tap')
+        self.tapButton3Label = gtk.Label(_('Three fingers tap'))
         self.tapButton3 = Tools.create_combo('TapButton3')
         table.attach(self.tapButton3Label, 0, 1, 2, 3)
         table.attach(self.tapButton3, 1, 2, 2, 3)
