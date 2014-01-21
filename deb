@@ -7,7 +7,7 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: synclient-tools
-Version: 0.1
+Version: 0.2
 Maintainer: paskao <paskao@hacari.org>
 Depends: python-gtk2, python-yaml, xserver-xorg-input-synaptics
 Files: synclient-tools /usr/bin/
