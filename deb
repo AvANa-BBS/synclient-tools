@@ -7,15 +7,15 @@ Priority: optional
 Standards-Version: 3.9.2
 
 Package: synclient-tools
-Version: 0.2
+Version: 0.2-1
 Maintainer: paskao <paskao@hacari.org>
 Depends: python-gtk2, python-yaml, xserver-xorg-input-synaptics
 Files: synclient-tools /usr/bin/
   default_conf.yaml /usr/share/synclient-tools/
   99synclient-tools /etc/X11/Xsession.d/
   synclient-tools.desktop /usr/share/applications/
+  synclient-tools.ico /usr/share/pixmaps/
   locale/es_ES/LC_MESSAGES/synclient-tools.mo /usr/share/
   locale/it_IT/LC_MESSAGES/synclient-tools.mo /usr/share/
-  locale/en_US/LC_MESSAGES/synclient-tools.mo /usr/share/
 
 Description: Tools for synclient
